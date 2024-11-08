@@ -1,0 +1,6 @@
+langchain
+langchain=ollama
+ollama
+
+PS C:\Users\rohit> Invoke-RestMethod -Uri "http://localhost:11434/api/generate" -Method Post -Headers @{ "Content-Type" = "application/json" } -Body '{"model": "llama3.2", "prompt": "Generate a summary for a student named Alice."}'
+ollama serve
